@@ -1,18 +1,9 @@
-// import ListGroup from './components/ListGroup';
-
-import Like from './components/Like';
+import { Form } from './components/Form';
 
 const App = () => {
-  // const items = ['New York', 'Los Angeles', 'San Fransisco'];
-
   return (
     <div>
-      <Like onClick={() => console.log('clicekd')} />
-      {/* <ListGroup
-        items={items}
-        heading='Miami'
-        onSelectItem={() => console.log('hi')}
-      /> */}
+      <Form />
     </div>
   );
 };
